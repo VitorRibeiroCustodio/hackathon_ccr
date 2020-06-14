@@ -25,17 +25,16 @@ export const Navigation = () => {
         name="Doações"
         component={DonationsScreen}
         options={{
-          tabBarIcon: 'bell-outline',
+          tabBarIcon: 'heart',
         }}
       />
       <Tab.Screen
         name="Perfil"
         component={ProfileScreen}
         options={{
-          tabBarIcon: 'message-text-outline',
+          tabBarIcon: 'account',
         }}
       />
     </Tab.Navigator>
   );
 }
-

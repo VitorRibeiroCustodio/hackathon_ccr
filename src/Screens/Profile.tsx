@@ -1,10 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { AppBar } from '../Components/Appbar';
+
 export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      <Text>Profile Screen</Text>
+      <AppBar />
+      <View>
+        <Text>Profile Screen</Text>
+      </View>
     </View>
   );
 }
