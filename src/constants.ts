@@ -44,4 +44,10 @@ export const donationsHistory = [
   {
     name: 'Dezembro de 2019',
   },
+  {
+    name: 'Novembro de 2019',
+  },
+  {
+    name: 'Outubro de 2019',
+  },
 ];

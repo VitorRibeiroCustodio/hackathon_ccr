@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import { ListItem } from 'react-native-elements';
 import { donationsHistory } from '../constants';
 
@@ -8,16 +8,18 @@ export default function ListComponent() {
     <View style={styles.container}>
       <Text style={styles.text}>Comprovante de doações</Text>
       <View style={styles.listContainer}>
-        {
-          donationsHistory.map((l, i) => (
-            <ListItem
-              key={i}
-              title={l.name}
-              bottomDivider
-              chevron
-            />
-          ))
-        }
+        <ScrollView>
+          {
+            donationsHistory.map((l, i) => (
+              <ListItem
+                key={i}
+                title={l.name}
+                bottomDivider
+                chevron
+              />
+            ))
+          }
+        </ScrollView>
       </View>
     </View>
   );
@@ -27,11 +29,15 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    width: 400,
+    width: 350,
+    borderColor: '#DCDCDC',
+    borderWidth: 1,
+    padding: 20,
+    borderRadius: 10,
   },
   listContainer: {
     width: 300,
-    height: 200,
+    height: 300,
   },
   text: {
     fontSize: 14,
