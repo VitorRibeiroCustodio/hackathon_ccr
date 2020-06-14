@@ -1,4 +1,4 @@
-export const mainColor = '#00e2d7';
+export const mainColor = '#00e2d7'; // Other main color #00b7e7
 
 export const news = [
   {
@@ -49,5 +49,11 @@ export const donationsHistory = [
   },
   {
     name: 'Outubro de 2019',
+  },
+  {
+    name: 'Setembro de 2019',
+  },
+  {
+    name: 'Agosto de 2019',
   },
 ];

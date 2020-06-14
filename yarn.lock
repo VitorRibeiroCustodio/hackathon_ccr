@@ -3414,6 +3414,11 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
+lodash@4.16.2:
+  version "4.16.2"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.2.tgz#3e626db827048a699281a8a125226326cfc0e652"
+  integrity sha1-PmJtuCcEimmSgaihJSJjJs/A5lI=
+
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
@@ -4443,6 +4448,26 @@ react-native-elements@^2.0.2:
     prop-types "^15.7.2"
     react-native-ratings "^7.2.0"
     react-native-status-bar-height "^2.2.0"
+
+react-native-flip-card@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-flip-card/-/react-native-flip-card-3.3.1.tgz#bf3300f8e8a9deba3821ea3e3b830c1f1bae324d"
+  integrity sha1-vzMA+Oip3ro4Ieo+O4MMHxuuMk0=
+
+react-native-flip-card@^3.5.6:
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/react-native-flip-card/-/react-native-flip-card-3.5.6.tgz#de26f0285aa6f8ee10bb4b696c60c6fb43bb580f"
+  integrity sha512-lqsjl4vF5DyHD7mjBJpyBoaLKVxalzoKfCosE63QF+TaCF9MKdJrxmGFQj/i64GDiMJqeS/5sNDcICUXtgFsVA==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-health-card@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-health-card/-/react-native-health-card-0.2.2.tgz#a642a6348c7330d635f0eaba9e3a9362295b9998"
+  integrity sha1-pkKmNIxzMNY18Oq6njqTYilbmZg=
+  dependencies:
+    lodash "4.16.2"
+    react-native-flip-card "3.3.1"
 
 react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
