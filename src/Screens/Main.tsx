@@ -1,13 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { AppBar } from '../Components/Appbar';
+import { CardComponent } from '../Components/Card';
+import { news } from '../constants';
 
 export default function Main() {
   return (
     <View style={styles.container}>
       <AppBar />
       <View>
-        <Text>Main Screen</Text>
+        {news.map(item => {
+          return <CardComponent key={item.id} item={item} />
+        })}
       </View>
     </View>
   );
