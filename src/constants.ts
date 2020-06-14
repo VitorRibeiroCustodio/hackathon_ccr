@@ -1,4 +1,4 @@
-export const mainColor = '#7734eb';
+export const mainColor = '#00e2d7';
 
 export const news = [
   {
@@ -11,6 +11,21 @@ export const news = [
     title: "Vai ser dada a largada para a 29ª edição da Gincana do Caminhoneiro!",
     image: "https://i0.wp.com/caminhoneirosdotrecho.com.br/wp-content/uploads/2020/06/GDC-Orientações-Small.jpg?resize=1024%2C341&ssl=1",
   },
+  {
+    id: 3,
+    title: "Sest Senat disponibiliza 30 mil testes gratuitos para covid-19",
+    image: "https://i2.wp.com/trucao.com.br/wp-content/uploads/2020/06/testes_gratuitos_para_covid_19_destaque.jpg?resize=696%2C392&ssl=1",
+  },
+  {
+    id: 4,
+    title: "Caminhoneiro faz 1000 viagens com seu Mercedes-Benz",
+    image: "https://i2.wp.com/caminhoneirosdotrecho.com.br/wp-content/uploads/2020/02/GOPR1614.jpg?fit=1612%2C1209&ssl=1"
+  },
+  {
+    id: 5,
+    title: "Importância do caminhoneiro em meio ao caos do coronavirus",
+    image: "https://www.ocarreteiro.com.br/wp-content/uploads/2020/03/coronavirus-na-estrada-696x472.jpeg",
+  }
 ];
 
 export const donationsHistory = [
