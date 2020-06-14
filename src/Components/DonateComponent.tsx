@@ -13,7 +13,7 @@ export default function DonateComponent() {
       </View>
       <View style={styles.buttonsContainer}>
         <Text style={styles.infoStyle}>Infos</Text>
-        <Text style={styles.donateTextStyle}>Doar</Text>
+        <Text style={styles.infoStyle}>Doar</Text>
       </View>
     </View>
   );
@@ -21,13 +21,13 @@ export default function DonateComponent() {
 
 const styles = StyleSheet.create({
   container: {
-    width: 250,
-    height: 150,
+    width: 280,
+    height: 160,
     backgroundColor: '#00b7e7',
     padding: 10,
     marginTop: 50,
     marginBottom: 15,
-    marginLeft: 50,
+    marginLeft: 40,
     borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
