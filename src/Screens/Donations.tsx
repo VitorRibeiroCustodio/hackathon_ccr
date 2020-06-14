@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { AppBar } from '../Components/Appbar';
+import ListComponent from '../Components/ListComponent';
 
 export default function DonationsScreen() {
   return (
     <View style={styles.container}>
       <AppBar />
       <View>
-        <Text>Donations Screen</Text>
+        <Text>Donate</Text>
+        <ListComponent />
       </View>
     </View>
   );
